@@ -1,0 +1,190 @@
+{
+    "13.53.124.43": {
+        "Ip": "13.53.124.43",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "13.53.0.0/16",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "SE",
+        "City": "Stockholm",
+        "template-id": "CVE-1337-1337",
+        "info": {
+            "name": "Wouters gaming team site",
+            "author": [
+                "nlcruise"
+            ],
+            "tags": [
+                "cve",
+                "cve1337",
+                "wouter",
+                "teamcsr"
+            ],
+            "reference": [
+                "https://linkedin.com/wouter-honselaar"
+            ],
+            "severity": "high",
+            "classification": {
+                "cve-id": [
+                    "cve-2000-0114"
+                ],
+                "cwe-id": [
+                    "nvd-cwe-other"
+                ],
+                "cvss-metrics": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                "cvss-score": 5
+            },
+            "description": "Wouter makes the web unsafe"
+        },
+        "type": "http",
+        "host": "13.53.124.43:25105",
+        "matched-at": "https://13.53.124.43:25105",
+        "extracted-results": null,
+        "ip": "13.53.124.43",
+        "timestamp": "2024-01-31T15:35:05.201255925Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://13.53.124.43:25105'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "18.228.238.231": {
+        "Ip": "18.228.238.231",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "18.228.0.0/16",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "BR",
+        "City": "S\u00e3o Paulo",
+        "template-id": "CVE-1337-1337",
+        "info": {
+            "name": "Wouters gaming team site",
+            "author": [
+                "nlcruise"
+            ],
+            "tags": [
+                "cve",
+                "cve1337",
+                "wouter",
+                "teamcsr"
+            ],
+            "reference": [
+                "https://linkedin.com/wouter-honselaar"
+            ],
+            "severity": "high",
+            "classification": {
+                "cve-id": [
+                    "cve-2000-0114"
+                ],
+                "cwe-id": [
+                    "nvd-cwe-other"
+                ],
+                "cvss-metrics": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                "cvss-score": 5
+            },
+            "description": "Wouter makes the web unsafe"
+        },
+        "type": "http",
+        "host": "18.228.238.231:4664",
+        "matched-at": "https://18.228.238.231:4664",
+        "extracted-results": null,
+        "ip": "18.228.238.231",
+        "timestamp": "2024-01-31T15:35:05.770428036Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://18.228.238.231:4664'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "3.8.19.26": {
+        "Ip": "3.8.19.26",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "3.8.0.0/14",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "GB",
+        "City": "London",
+        "template-id": "CVE-1337-1337",
+        "info": {
+            "name": "Wouters gaming team site",
+            "author": [
+                "nlcruise"
+            ],
+            "tags": [
+                "cve",
+                "cve1337",
+                "wouter",
+                "teamcsr"
+            ],
+            "reference": [
+                "https://linkedin.com/wouter-honselaar"
+            ],
+            "severity": "high",
+            "classification": {
+                "cve-id": [
+                    "cve-2000-0114"
+                ],
+                "cwe-id": [
+                    "nvd-cwe-other"
+                ],
+                "cvss-metrics": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                "cvss-score": 5
+            },
+            "description": "Wouter makes the web unsafe"
+        },
+        "type": "http",
+        "host": "3.8.19.26:35000",
+        "matched-at": "https://3.8.19.26:35000",
+        "extracted-results": null,
+        "ip": "3.8.19.26",
+        "timestamp": "2024-01-31T15:35:05.162123716Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://3.8.19.26:35000'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "54.191.55.233": {
+        "Ip": "54.191.55.233",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "54.191.0.0/16",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "US",
+        "City": "Boardman",
+        "template-id": "CVE-1337-1337",
+        "info": {
+            "name": "Wouters gaming team site",
+            "author": [
+                "nlcruise"
+            ],
+            "tags": [
+                "cve",
+                "cve1337",
+                "wouter",
+                "teamcsr"
+            ],
+            "reference": [
+                "https://linkedin.com/wouter-honselaar"
+            ],
+            "severity": "high",
+            "classification": {
+                "cve-id": [
+                    "cve-2000-0114"
+                ],
+                "cwe-id": [
+                    "nvd-cwe-other"
+                ],
+                "cvss-metrics": "CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                "cvss-score": 5
+            },
+            "description": "Wouter makes the web unsafe"
+        },
+        "type": "http",
+        "host": "54.191.55.233:9080",
+        "matched-at": "https://54.191.55.233:9080",
+        "extracted-results": null,
+        "ip": "54.191.55.233",
+        "timestamp": "2024-01-31T15:35:05.596084508Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://54.191.55.233:9080'",
+        "matcher-status": true,
+        "matched-line": ""
+    }
+}

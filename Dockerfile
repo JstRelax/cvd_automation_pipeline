@@ -32,6 +32,10 @@ RUN wget https://dl.google.com/go/go1.18.1.linux-amd64.tar.gz && \
 
 # Set PATH to include Go binaries
 ENV PATH="${PATH}:/usr/local/go/bin"
+# Create and set permissions for the Go cache directory
+RUN mkdir -p /opt/airflow/go-cache && chown -R airflow /opt/airflow/go-cache && chmod 777 /opt/airflow/go-cache
+# Set Go cache directory to a location with write permission
+ENV GOCACHE=/opt/airflow/go-cache
 
 # Download and install nuclei
 RUN wget https://github.com/projectdiscovery/nuclei/releases/download/v3.1.7/nuclei_3.1.7_linux_amd64.zip && \
@@ -53,7 +57,7 @@ RUN git clone https://github.com/DIVD-NL/nuclei-parse-enrich.git && \
 USER airflow
 
 # Install shodan using pip as the airflow user
-RUN pip install shodan
+RUN pip install --user shodan
 
 # Install mailmerge
 RUN pip install mailmerge

@@ -1,0 +1,17 @@
+[2024-01-31T15:17:54.709+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cvd_automation_pipeline.run_nuclei_scan_task manual__2024-01-31T15:17:49.030357+00:00 [queued]>
+[2024-01-31T15:17:54.716+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cvd_automation_pipeline.run_nuclei_scan_task manual__2024-01-31T15:17:49.030357+00:00 [queued]>
+[2024-01-31T15:17:54.717+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-31T15:17:54.729+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_nuclei_scan_task> on 2024-01-31 15:17:49.030357+00:00
+[2024-01-31T15:17:54.734+0000] {standard_task_runner.py:60} INFO - Started process 14816 to run task
+[2024-01-31T15:17:54.736+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'cvd_automation_pipeline', 'run_nuclei_scan_task', 'manual__2024-01-31T15:17:49.030357+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/cvd_pipeline_1.py', '--cfg-path', '/tmp/tmpd3neblq3']
+[2024-01-31T15:17:54.737+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask run_nuclei_scan_task
+[2024-01-31T15:17:54.772+0000] {task_command.py:423} INFO - Running <TaskInstance: cvd_automation_pipeline.run_nuclei_scan_task manual__2024-01-31T15:17:49.030357+00:00 [running]> on host 8d8bbdf320cd
+[2024-01-31T15:17:54.835+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='cvd_automation_pipeline' AIRFLOW_CTX_TASK_ID='run_nuclei_scan_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-31T15:17:49.030357+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-31T15:17:49.030357+00:00'
+[2024-01-31T15:17:55.510+0000] {logging_mixin.py:188} INFO - An error occurred while running Nuclei command: Command 'nuclei -H 'User-Agent: DIVD-2023-00020' -t /opt/***/data/fingerprint_data.yaml -l data/DIVD-2024-XXXX/2024-01-31-shodan-results.csv -retries 2 -timeout 6 -output data/DIVD-2024-XXXX/2024-01-31-nuclei-results.json -j' returned non-zero exit status 1.
+[2024-01-31T15:17:55.510+0000] {logging_mixin.py:188} INFO - None
+[2024-01-31T15:17:55.511+0000] {logging_mixin.py:188} INFO - An error occurred while reading the file: [Errno 2] No such file or directory: 'data/DIVD-2024-XXXX/2024-01-31-nuclei-results.json'
+[2024-01-31T15:17:55.511+0000] {logging_mixin.py:188} INFO - Nuclei scan completed.
+[2024-01-31T15:17:55.512+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-31T15:17:55.520+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=cvd_automation_pipeline, task_id=run_nuclei_scan_task, execution_date=20240131T151749, start_date=20240131T151754, end_date=20240131T151755
+[2024-01-31T15:17:55.552+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-31T15:17:55.570+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

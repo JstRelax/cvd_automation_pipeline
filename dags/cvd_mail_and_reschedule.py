@@ -9,6 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import logging
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
+from airflow.models import Variable
 
 default_args = {
     'owner': 'airflow',
@@ -55,7 +56,7 @@ template = Template(template_string)
 divd_case_number = "DIVD-2024-XXXX"
 
 def process_vulnerability_data(**kwargs):
-    smtp_server = '192.168.1.74'  # Host private IP address
+    smtp_server = '10.48.80.23'  # Host private IP address
     smtp_port = 1025            # Default MailHog SMTP port
     smtp_username = 'hello@gmail.com'          # MailHog doesn't require username - still here for template
     smtp_password = ''          # MailHog doesn't require password
@@ -71,9 +72,11 @@ def process_vulnerability_data(**kwargs):
         logging.error(f"Failed to connect to SMTP server: {e}")
         return
 
+    divd_case_number = Variable.get("divd_case_number")
+    current_date = datetime.now().strftime("%Y-%m-%d")
     # Load JSON data
     try:
-        with open('/opt/airflow/data/enriched_nuclei_results/enriched_2024-01-30.json', 'r') as file:
+        with open(f'/opt/airflow/data/{divd_case_number}/enriched_nuclei_results/enriched_{current_date}.json', 'r') as file:
             data = json.load(file)
         logging.info("JSON data loaded successfully.")
     except Exception as e:
@@ -123,12 +126,4 @@ with DAG('vulnerability_email_notification',
         python_callable=process_vulnerability_data
     )
 
-    trigger_next_dag = TriggerDagRunOperator(
-        task_id="trigger_next_dag",
-        trigger_dag_id="second_dag_id",  # rescan and notify dag
-        wait_for_completion=False,
-        poke_interval=180,       # Checks condition every 30 seconds
-        timeout=14400           # 4 hours timeout in seconds
-    )
-
-    task_process_data >> trigger_next_dag
+    task_process_data
