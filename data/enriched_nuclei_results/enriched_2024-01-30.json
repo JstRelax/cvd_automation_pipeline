@@ -1,0 +1,402 @@
+{
+    "124.222.233.238": {
+        "Ip": "124.222.233.238",
+        "AbuseSource": "whois",
+        "Abuse": "'tencent_noc@tencent.com;tencent_noc@tencent.com;ipas@cnnic.cn;clarkcheng@tencent.com;klayliang@tencent.com",
+        "Prefix": "124.222.192.0/18",
+        "Asn": "45090",
+        "Holder": "TENCENT-NET-AP Shenzhen Tencent Computer Systems Company Limited",
+        "Country": "CN",
+        "City": "",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "124.222.233.238:80",
+        "matched-at": "http://124.222.233.238:80",
+        "extracted-results": null,
+        "ip": "124.222.233.238",
+        "timestamp": "2024-01-30T18:57:12.996188845Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'http://124.222.233.238:80'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "15.157.71.1": {
+        "Ip": "15.157.71.1",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "15.156.0.0/15",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "CA",
+        "City": "Montreal",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "15.157.71.1:9993",
+        "matched-at": "https://15.157.71.1:9993",
+        "extracted-results": null,
+        "ip": "15.157.71.1",
+        "timestamp": "2024-01-30T18:57:12.860748599Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://15.157.71.1:9993'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "3.84.44.179": {
+        "Ip": "3.84.44.179",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "3.80.0.0/12",
+        "Asn": "14618",
+        "Holder": "AMAZON-AES",
+        "Country": "US",
+        "City": "Ashburn",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "3.84.44.179:1604",
+        "matched-at": "https://3.84.44.179:1604",
+        "extracted-results": null,
+        "ip": "3.84.44.179",
+        "timestamp": "2024-01-30T18:57:12.850190123Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://3.84.44.179:1604'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "43.192.116.82": {
+        "Ip": "43.192.116.82",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "ec2-abuse-cn@amazonaws.cn",
+        "Prefix": "43.192.0.0/16",
+        "Asn": "135629",
+        "Holder": "WESTCLOUDDATA Ningxia West Cloud Data Technology Co.Ltd.",
+        "Country": "CN",
+        "City": "Ningxia",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "43.192.116.82:5000",
+        "matched-at": "https://43.192.116.82:5000",
+        "extracted-results": null,
+        "ip": "43.192.116.82",
+        "timestamp": "2024-01-30T18:57:14.15329278Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://43.192.116.82:5000'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "44.203.250.21": {
+        "Ip": "44.203.250.21",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "44.192.0.0/11",
+        "Asn": "14618",
+        "Holder": "AMAZON-AES",
+        "Country": "US",
+        "City": "Ashburn",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "44.203.250.21:8083",
+        "matched-at": "https://44.203.250.21:8083",
+        "extracted-results": null,
+        "ip": "44.203.250.21",
+        "timestamp": "2024-01-30T18:57:12.843481142Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://44.203.250.21:8083'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "51.21.131.99": {
+        "Ip": "51.21.131.99",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "email-abuse@amazon.com",
+        "Prefix": "51.21.0.0/16",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "SE",
+        "City": "Stockholm",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "51.21.131.99:7443",
+        "matched-at": "https://51.21.131.99:7443",
+        "extracted-results": null,
+        "ip": "51.21.131.99",
+        "timestamp": "2024-01-30T18:57:12.633372712Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://51.21.131.99:7443'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "52.23.211.219": {
+        "Ip": "52.23.211.219",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "52.20.0.0/14",
+        "Asn": "14618",
+        "Holder": "AMAZON-AES",
+        "Country": "US",
+        "City": "Ashburn",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "52.23.211.219:3402",
+        "matched-at": "https://52.23.211.219:3402",
+        "extracted-results": null,
+        "ip": "52.23.211.219",
+        "timestamp": "2024-01-30T18:57:12.843104353Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://52.23.211.219:3402'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "54.224.146.28": {
+        "Ip": "54.224.146.28",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "54.224.0.0/15",
+        "Asn": "14618",
+        "Holder": "AMAZON-AES",
+        "Country": "US",
+        "City": "Ashburn",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "54.224.146.28:5901",
+        "matched-at": "https://54.224.146.28:5901",
+        "extracted-results": null,
+        "ip": "54.224.146.28",
+        "timestamp": "2024-01-30T18:57:12.842684156Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://54.224.146.28:5901'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "65.1.100.235": {
+        "Ip": "65.1.100.235",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "abuse@amazonaws.com",
+        "Prefix": "65.0.0.0/14",
+        "Asn": "16509",
+        "Holder": "AMAZON-02",
+        "Country": "IN",
+        "City": "Mumbai",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "65.1.100.235:70",
+        "matched-at": "https://65.1.100.235:70",
+        "extracted-results": null,
+        "ip": "65.1.100.235",
+        "timestamp": "2024-01-30T18:57:13.088102499Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://65.1.100.235:70'",
+        "matcher-status": true,
+        "matched-line": ""
+    },
+    "68.79.11.55": {
+        "Ip": "68.79.11.55",
+        "AbuseSource": "RipeSTAT",
+        "Abuse": "ec2-abuse-cn@amazonaws.cn",
+        "Prefix": "68.79.0.0/18",
+        "Asn": "135629",
+        "Holder": "WESTCLOUDDATA Ningxia West Cloud Data Technology Co.Ltd.",
+        "Country": "CN",
+        "City": "Ningxia",
+        "template-id": "CVE-2023-27350",
+        "info": {
+            "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+            "author": [
+                "maximand"
+            ],
+            "tags": [
+                "papercut",
+                "cve-2023-27350",
+                "bypass"
+            ],
+            "reference": null,
+            "severity": "critical",
+            "classification": {
+                "cve-id": null,
+                "cwe-id": null,
+                "cvss-metrics": "",
+                "cvss-score": 0
+            },
+            "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session"
+        },
+        "type": "http",
+        "host": "68.79.11.55:4911",
+        "matched-at": "https://68.79.11.55:4911",
+        "extracted-results": null,
+        "ip": "68.79.11.55",
+        "timestamp": "2024-01-30T18:57:13.131784378Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://68.79.11.55:4911'",
+        "matcher-status": true,
+        "matched-line": ""
+    }
+}

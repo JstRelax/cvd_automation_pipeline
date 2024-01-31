@@ -1,0 +1,1360 @@
+[2024-01-31T00:00:26.396+0000] {processor.py:161} INFO - Started process (PID=7903) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:26.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:00:26.399+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:26.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:26.426+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:26.455+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:26.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:00:26.472+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:26.472+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:00:26.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.108 seconds
+[2024-01-31T00:00:57.094+0000] {processor.py:161} INFO - Started process (PID=7929) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:57.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:00:57.098+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:57.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:57.129+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:00:57.164+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:57.164+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:00:57.183+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:00:57.182+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:00:57.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.134 seconds
+[2024-01-31T00:01:27.805+0000] {processor.py:161} INFO - Started process (PID=7955) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:27.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:01:27.809+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:27.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:27.841+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:27.879+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:27.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:01:27.896+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:27.896+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:01:27.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.134 seconds
+[2024-01-31T00:01:58.360+0000] {processor.py:161} INFO - Started process (PID=7981) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:58.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:01:58.363+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:58.363+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:58.397+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:01:58.441+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:58.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:01:58.459+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:01:58.459+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:01:58.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.131 seconds
+[2024-01-31T00:02:28.898+0000] {processor.py:161} INFO - Started process (PID=8007) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:28.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:02:28.901+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:28.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:28.933+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:28.967+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:28.967+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:02:28.988+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:28.987+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:02:29.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.133 seconds
+[2024-01-31T00:02:59.596+0000] {processor.py:161} INFO - Started process (PID=8033) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:59.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:02:59.599+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:59.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:59.628+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:02:59.663+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:59.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:02:59.683+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:02:59.682+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:02:59.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.121 seconds
+[2024-01-31T00:03:30.285+0000] {processor.py:161} INFO - Started process (PID=8059) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:03:30.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:03:30.287+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:03:30.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:03:30.311+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:03:30.343+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:03:30.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:03:30.360+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:03:30.359+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:03:30.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.110 seconds
+[2024-01-31T00:04:01.000+0000] {processor.py:161} INFO - Started process (PID=8087) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:01.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:04:01.008+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:01.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:01.055+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:01.104+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:01.103+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:04:01.132+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:01.131+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:04:01.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.181 seconds
+[2024-01-31T00:04:31.886+0000] {processor.py:161} INFO - Started process (PID=8119) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:31.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:04:31.889+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:31.915+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:31.944+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:04:31.959+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:31.959+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:04:31.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.108 seconds
+[2024-01-31T00:04:38.999+0000] {processor.py:161} INFO - Started process (PID=8124) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:39.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:04:39.001+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:39.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:39.037+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:39.071+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:39.071+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:04:39.091+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:39.091+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:04:39.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:04:40.135+0000] {processor.py:161} INFO - Started process (PID=8129) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:40.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:04:40.138+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:40.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:40.183+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:04:40.214+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:40.214+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:04:40.231+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:04:40.230+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:04:40.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.128 seconds
+[2024-01-31T00:05:10.813+0000] {processor.py:161} INFO - Started process (PID=8157) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:10.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:05:10.815+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:10.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:10.842+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:10.871+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:10.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:05:10.886+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:10.886+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:05:10.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.104 seconds
+[2024-01-31T00:05:41.502+0000] {processor.py:161} INFO - Started process (PID=8183) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:41.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:05:41.504+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:41.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:41.534+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:05:41.572+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:41.572+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:05:41.589+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:05:41.589+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:05:41.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.131 seconds
+[2024-01-31T00:06:12.266+0000] {processor.py:161} INFO - Started process (PID=8209) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:12.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:06:12.269+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:12.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:12.300+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:12.334+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:12.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:06:12.350+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:12.349+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:06:12.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:06:42.956+0000] {processor.py:161} INFO - Started process (PID=8235) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:42.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:06:42.959+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:42.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:42.990+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:06:43.030+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:43.029+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:06:43.047+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:06:43.047+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:06:43.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.122 seconds
+[2024-01-31T00:07:13.645+0000] {processor.py:161} INFO - Started process (PID=8261) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:13.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:07:13.648+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:13.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:13.679+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:13.715+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:13.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:07:13.733+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:13.732+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:07:13.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.123 seconds
+[2024-01-31T00:07:44.340+0000] {processor.py:161} INFO - Started process (PID=8287) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:44.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:07:44.345+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:44.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:44.388+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:07:44.437+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:44.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:07:44.458+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:07:44.457+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:07:44.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.170 seconds
+[2024-01-31T00:08:15.062+0000] {processor.py:161} INFO - Started process (PID=8313) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:15.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:08:15.066+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:15.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:15.098+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:15.134+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:15.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:08:15.153+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:15.153+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:08:15.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.132 seconds
+[2024-01-31T00:08:45.738+0000] {processor.py:161} INFO - Started process (PID=8339) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:45.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:08:45.741+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:45.741+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:45.774+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:08:45.809+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:45.809+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:08:45.826+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:08:45.825+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:08:45.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.126 seconds
+[2024-01-31T00:09:16.431+0000] {processor.py:161} INFO - Started process (PID=8365) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:16.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:09:16.434+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:16.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:16.469+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:16.506+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:16.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:09:16.525+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:16.524+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:09:16.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.138 seconds
+[2024-01-31T00:09:47.204+0000] {processor.py:161} INFO - Started process (PID=8391) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:47.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:09:47.207+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:47.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:47.238+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:09:47.270+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:47.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:09:47.287+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:09:47.286+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:09:47.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.121 seconds
+[2024-01-31T00:10:17.993+0000] {processor.py:161} INFO - Started process (PID=8417) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:17.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:10:17.996+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:17.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:18.028+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:18.060+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:18.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:10:18.077+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:18.077+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:10:18.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.123 seconds
+[2024-01-31T00:10:48.697+0000] {processor.py:161} INFO - Started process (PID=8443) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:48.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:10:48.702+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:48.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:48.744+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:10:48.784+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:48.783+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:10:48.803+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:10:48.802+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:10:48.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.146 seconds
+[2024-01-31T00:11:19.377+0000] {processor.py:161} INFO - Started process (PID=8469) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:19.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:11:19.380+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:19.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:19.408+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:19.444+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:19.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:11:19.464+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:19.464+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:11:19.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.130 seconds
+[2024-01-31T00:11:50.069+0000] {processor.py:161} INFO - Started process (PID=8495) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:50.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:11:50.072+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:50.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:50.099+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:11:50.130+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:50.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:11:50.146+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:11:50.146+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:11:50.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.113 seconds
+[2024-01-31T00:12:20.781+0000] {processor.py:161} INFO - Started process (PID=8521) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:20.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:12:20.784+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:20.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:20.811+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:20.842+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:20.842+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:12:20.857+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:20.857+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:12:20.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.114 seconds
+[2024-01-31T00:12:51.500+0000] {processor.py:161} INFO - Started process (PID=8547) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:51.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:12:51.502+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:51.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:51.530+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:12:51.566+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:51.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:12:51.586+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:12:51.586+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:12:51.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.125 seconds
+[2024-01-31T00:13:22.182+0000] {processor.py:161} INFO - Started process (PID=8573) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:22.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:13:22.185+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:22.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:22.216+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:22.250+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:22.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:13:22.265+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:22.265+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:13:22.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.117 seconds
+[2024-01-31T00:13:52.900+0000] {processor.py:161} INFO - Started process (PID=8599) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:52.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:13:52.904+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:52.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:52.945+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:13:52.992+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:52.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:13:53.017+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:13:53.017+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:13:53.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.162 seconds
+[2024-01-31T00:14:23.619+0000] {processor.py:161} INFO - Started process (PID=8625) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:23.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:14:23.622+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:23.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:23.652+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:23.687+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:23.686+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:14:23.703+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:23.703+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:14:23.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:14:54.274+0000] {processor.py:161} INFO - Started process (PID=8652) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:54.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:14:54.276+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:54.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:54.307+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:14:54.341+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:54.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:14:54.357+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:14:54.357+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:14:54.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.114 seconds
+[2024-01-31T00:15:25.009+0000] {processor.py:161} INFO - Started process (PID=8678) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:25.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:15:25.011+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:25.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:25.035+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:25.064+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:25.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:15:25.078+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:25.077+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:15:25.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.098 seconds
+[2024-01-31T00:15:55.659+0000] {processor.py:161} INFO - Started process (PID=8704) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:55.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:15:55.662+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:55.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:55.692+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:15:55.730+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:55.730+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:15:55.753+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:15:55.753+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:15:55.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.130 seconds
+[2024-01-31T00:16:26.311+0000] {processor.py:161} INFO - Started process (PID=8730) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:26.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:16:26.314+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:26.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:26.350+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:26.386+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:26.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:16:26.402+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:26.401+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:16:26.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.125 seconds
+[2024-01-31T00:16:57.017+0000] {processor.py:161} INFO - Started process (PID=8756) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:57.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:16:57.021+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:57.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:57.060+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:16:57.106+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:57.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:16:57.130+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:16:57.130+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:16:57.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.162 seconds
+[2024-01-31T00:17:27.812+0000] {processor.py:161} INFO - Started process (PID=8782) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:27.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:17:27.816+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:27.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:27.844+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:27.876+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:27.876+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:17:27.897+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:27.896+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:17:27.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.120 seconds
+[2024-01-31T00:17:58.504+0000] {processor.py:161} INFO - Started process (PID=8808) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:58.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:17:58.506+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:58.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:58.535+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:17:58.564+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:58.563+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:17:58.579+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:17:58.579+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:17:58.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.108 seconds
+[2024-01-31T00:18:29.223+0000] {processor.py:161} INFO - Started process (PID=8834) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:18:29.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:18:29.228+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:18:29.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:18:29.273+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:18:29.332+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:18:29.332+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:18:29.355+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:18:29.355+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:18:29.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.171 seconds
+[2024-01-31T00:18:59.958+0000] {processor.py:161} INFO - Started process (PID=8860) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:18:59.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:18:59.961+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:18:59.960+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:18:59.993+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:19:00.032+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:19:00.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:19:00.050+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:19:00.050+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:19:00.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.125 seconds
+[2024-01-31T00:19:30.661+0000] {processor.py:161} INFO - Started process (PID=8886) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:19:30.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:19:30.664+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:19:30.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:19:30.694+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:19:30.729+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:19:30.728+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:19:30.745+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:19:30.745+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:19:30.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.117 seconds
+[2024-01-31T00:20:01.231+0000] {processor.py:161} INFO - Started process (PID=8912) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:01.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:20:01.234+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:01.263+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:01.299+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.298+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:20:01.316+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:01.316+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:20:01.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.126 seconds
+[2024-01-31T00:20:31.914+0000] {processor.py:161} INFO - Started process (PID=8938) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:31.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:20:31.916+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:31.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:31.943+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:20:31.971+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:31.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:20:31.992+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:20:31.992+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:20:32.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.108 seconds
+[2024-01-31T00:21:02.585+0000] {processor.py:161} INFO - Started process (PID=8964) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:02.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:21:02.588+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:02.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:02.617+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:02.650+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:02.649+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:21:02.667+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:02.667+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:21:02.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.112 seconds
+[2024-01-31T00:21:33.326+0000] {processor.py:161} INFO - Started process (PID=8990) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:33.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:21:33.330+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:33.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:33.364+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:21:33.401+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:33.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:21:33.419+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:21:33.419+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:21:33.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.125 seconds
+[2024-01-31T00:22:04.027+0000] {processor.py:161} INFO - Started process (PID=9022) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:04.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:22:04.032+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:04.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:04.066+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:04.103+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:04.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:22:04.124+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:04.124+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:22:04.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.137 seconds
+[2024-01-31T00:22:34.776+0000] {processor.py:161} INFO - Started process (PID=9048) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:34.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:22:34.782+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:34.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:34.818+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:22:34.854+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:34.853+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:22:34.870+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:22:34.870+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:22:34.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.138 seconds
+[2024-01-31T00:23:05.357+0000] {processor.py:161} INFO - Started process (PID=9074) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:05.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:23:05.359+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:05.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:05.389+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:05.423+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:05.422+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:23:05.438+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:05.438+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:23:05.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.115 seconds
+[2024-01-31T00:23:36.050+0000] {processor.py:161} INFO - Started process (PID=9100) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:36.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:23:36.053+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:36.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:36.080+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:23:36.116+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:36.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:23:36.134+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:23:36.134+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:23:36.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:24:06.762+0000] {processor.py:161} INFO - Started process (PID=9126) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:06.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:24:06.765+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:06.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:06.790+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:06.824+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:06.823+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:24:06.843+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:06.843+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:24:06.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.119 seconds
+[2024-01-31T00:24:37.574+0000] {processor.py:161} INFO - Started process (PID=9152) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:37.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:24:37.577+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:37.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:37.632+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:24:37.677+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:37.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:24:37.708+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:24:37.708+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:24:37.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.179 seconds
+[2024-01-31T00:25:08.380+0000] {processor.py:161} INFO - Started process (PID=9178) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:08.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:25:08.384+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:08.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:08.420+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:08.460+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:08.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:25:08.478+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:08.478+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:25:08.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.145 seconds
+[2024-01-31T00:25:39.122+0000] {processor.py:161} INFO - Started process (PID=9204) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:39.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:25:39.125+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:39.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:39.160+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:25:39.199+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:39.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:25:39.217+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:25:39.217+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:25:39.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.126 seconds
+[2024-01-31T00:26:09.845+0000] {processor.py:161} INFO - Started process (PID=9230) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:09.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:26:09.848+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:09.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:09.889+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:09.924+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:09.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:26:09.940+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:09.940+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:26:09.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.130 seconds
+[2024-01-31T00:26:40.524+0000] {processor.py:161} INFO - Started process (PID=9256) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:40.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:26:40.527+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:40.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:40.560+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:26:40.592+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:40.591+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:26:40.608+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:26:40.608+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:26:40.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.122 seconds
+[2024-01-31T00:27:11.248+0000] {processor.py:161} INFO - Started process (PID=9282) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:11.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:27:11.251+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:11.284+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:11.321+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.321+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:27:11.341+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:11.341+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:27:11.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.130 seconds
+[2024-01-31T00:27:41.914+0000] {processor.py:161} INFO - Started process (PID=9308) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:41.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:27:41.917+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:41.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:41.947+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:27:41.985+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:41.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:27:42.005+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:27:42.005+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:27:42.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.133 seconds
+[2024-01-31T00:28:12.626+0000] {processor.py:161} INFO - Started process (PID=9335) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:12.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:28:12.629+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:12.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:12.660+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:12.698+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:12.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:28:12.719+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:12.718+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:28:12.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.128 seconds
+[2024-01-31T00:28:43.374+0000] {processor.py:161} INFO - Started process (PID=9361) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:43.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:28:43.378+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:43.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:43.409+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:28:43.446+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:43.446+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:28:43.464+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:28:43.464+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:28:43.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.126 seconds
+[2024-01-31T00:29:14.076+0000] {processor.py:161} INFO - Started process (PID=9387) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:14.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:29:14.079+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:14.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:14.105+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:14.138+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:14.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:29:14.157+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:14.157+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:29:14.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.120 seconds
+[2024-01-31T00:29:44.836+0000] {processor.py:161} INFO - Started process (PID=9413) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:44.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:29:44.838+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:44.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:44.865+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:29:44.898+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:44.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:29:44.914+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:29:44.914+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:29:44.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.116 seconds
+[2024-01-31T00:30:15.555+0000] {processor.py:161} INFO - Started process (PID=9439) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:15.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:30:15.558+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:15.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:15.587+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:15.619+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:15.619+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:30:15.636+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:15.635+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:30:15.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.120 seconds
+[2024-01-31T00:30:46.199+0000] {processor.py:161} INFO - Started process (PID=9465) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:46.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:30:46.203+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:46.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:46.234+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:30:46.269+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:46.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:30:46.286+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:30:46.286+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:30:46.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.115 seconds
+[2024-01-31T00:31:16.887+0000] {processor.py:161} INFO - Started process (PID=9491) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:16.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:31:16.890+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:16.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:16.918+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:16.956+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:16.955+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:31:16.975+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:16.974+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:31:17.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.131 seconds
+[2024-01-31T00:31:47.854+0000] {processor.py:161} INFO - Started process (PID=9525) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:47.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:31:47.857+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:47.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:47.887+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:31:47.922+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:47.921+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:31:47.937+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:31:47.937+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:31:47.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.116 seconds
+[2024-01-31T00:32:18.513+0000] {processor.py:161} INFO - Started process (PID=9551) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:18.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:32:18.516+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:18.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:18.542+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:18.573+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:18.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:32:18.593+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:18.593+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:32:18.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.113 seconds
+[2024-01-31T00:32:49.219+0000] {processor.py:161} INFO - Started process (PID=9577) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:49.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:32:49.222+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:49.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:49.246+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:32:49.279+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:49.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:32:49.297+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:32:49.297+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:32:49.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.109 seconds
+[2024-01-31T00:33:19.909+0000] {processor.py:161} INFO - Started process (PID=9603) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:19.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:33:19.912+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:19.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:19.939+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:19.973+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:19.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:33:19.993+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:19.992+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:33:20.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.163 seconds
+[2024-01-31T00:33:50.646+0000] {processor.py:161} INFO - Started process (PID=9629) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:50.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:33:50.650+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:50.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:50.675+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:33:50.703+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:50.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:33:50.717+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:33:50.717+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:33:50.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.107 seconds
+[2024-01-31T00:34:21.305+0000] {processor.py:161} INFO - Started process (PID=9655) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:21.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:34:21.308+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:21.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:21.334+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:21.368+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:21.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:34:21.384+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:21.384+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:34:21.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.117 seconds
+[2024-01-31T00:34:52.003+0000] {processor.py:161} INFO - Started process (PID=9681) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:52.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:34:52.006+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:52.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:52.029+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:34:52.058+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:52.058+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:34:52.077+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:34:52.077+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:34:52.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.112 seconds
+[2024-01-31T00:35:22.756+0000] {processor.py:161} INFO - Started process (PID=9707) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:22.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:35:22.759+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:22.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:22.786+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:22.820+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:22.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:35:22.838+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:22.837+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:35:22.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:35:53.444+0000] {processor.py:161} INFO - Started process (PID=9733) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:53.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:35:53.449+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:53.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:53.482+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:35:53.523+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:53.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:35:53.538+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:35:53.538+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:35:53.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.143 seconds
+[2024-01-31T00:36:24.260+0000] {processor.py:161} INFO - Started process (PID=9759) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:24.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:36:24.265+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:24.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:24.296+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:24.335+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:24.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:36:24.357+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:24.357+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:36:24.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.145 seconds
+[2024-01-31T00:36:55.070+0000] {processor.py:161} INFO - Started process (PID=9785) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:55.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:36:55.073+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:55.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:55.106+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:36:55.151+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:55.150+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:36:55.172+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:36:55.172+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:36:55.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.142 seconds
+[2024-01-31T00:37:25.861+0000] {processor.py:161} INFO - Started process (PID=9811) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:25.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:37:25.864+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:25.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:25.887+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:25.916+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:25.915+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:37:25.933+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:25.932+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:37:25.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.102 seconds
+[2024-01-31T00:37:56.473+0000] {processor.py:161} INFO - Started process (PID=9837) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:56.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:37:56.476+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:56.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:56.503+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:37:56.539+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:56.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:37:56.559+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:37:56.558+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:37:56.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.124 seconds
+[2024-01-31T00:38:27.160+0000] {processor.py:161} INFO - Started process (PID=9863) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:38:27.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T00:38:27.163+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:38:27.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:38:27.192+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T00:38:27.229+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:38:27.228+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T00:38:27.245+0000] {logging_mixin.py:188} INFO - [2024-01-31T00:38:27.244+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T00:38:27.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.119 seconds
+[2024-01-31T13:46:40.486+0000] {processor.py:161} INFO - Started process (PID=9889) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:46:40.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:46:40.489+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:46:40.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:46:40.505+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:46:40.541+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:46:40.540+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:46:40.556+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:46:40.556+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:46:40.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.125 seconds
+[2024-01-31T13:47:11.279+0000] {processor.py:161} INFO - Started process (PID=9917) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:11.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:47:11.280+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:11.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:11.301+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:11.320+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:11.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:47:11.331+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:11.331+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:47:11.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.071 seconds
+[2024-01-31T13:47:41.672+0000] {processor.py:161} INFO - Started process (PID=9943) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:41.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:47:41.674+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:41.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:41.688+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:47:41.706+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:41.706+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:47:41.715+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:47:41.715+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:47:41.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.060 seconds
+[2024-01-31T13:48:12.142+0000] {processor.py:161} INFO - Started process (PID=9969) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:12.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:48:12.144+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:12.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:12.162+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:12.190+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:12.190+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:48:12.203+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:12.202+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:48:12.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.090 seconds
+[2024-01-31T13:48:42.595+0000] {processor.py:161} INFO - Started process (PID=9995) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:42.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:48:42.597+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:42.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:42.615+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:48:42.637+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:42.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:48:42.648+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:48:42.648+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:48:42.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.077 seconds
+[2024-01-31T13:49:13.107+0000] {processor.py:161} INFO - Started process (PID=10026) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:13.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:49:13.109+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:13.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:13.124+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:13.144+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:13.144+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:49:13.155+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:13.155+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:49:13.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.069 seconds
+[2024-01-31T13:49:43.533+0000] {processor.py:161} INFO - Started process (PID=10052) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:43.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:49:43.535+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:43.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:43.550+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:49:43.568+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:43.568+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:49:43.579+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:49:43.579+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:49:43.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.071 seconds
+[2024-01-31T13:50:13.932+0000] {processor.py:161} INFO - Started process (PID=10078) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:13.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:50:13.934+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:13.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:13.950+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:13.971+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:13.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:50:13.984+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:13.983+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:50:14.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.073 seconds
+[2024-01-31T13:50:44.358+0000] {processor.py:161} INFO - Started process (PID=10104) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:44.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:50:44.359+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:44.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:44.374+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:50:44.394+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:44.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:50:44.403+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:50:44.403+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:50:44.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T13:51:14.760+0000] {processor.py:161} INFO - Started process (PID=10130) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:14.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:51:14.762+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:14.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:14.777+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:14.796+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:14.795+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:51:14.805+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:14.805+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:51:14.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.064 seconds
+[2024-01-31T13:51:45.205+0000] {processor.py:161} INFO - Started process (PID=10156) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:45.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:51:45.207+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:45.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:45.221+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:51:45.240+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:45.240+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:51:45.250+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:51:45.250+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:51:45.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T13:52:15.601+0000] {processor.py:161} INFO - Started process (PID=10182) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:15.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:52:15.603+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:15.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:15.617+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:15.635+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:15.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:52:15.645+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:15.645+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:52:15.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T13:52:46.006+0000] {processor.py:161} INFO - Started process (PID=10208) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:46.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:52:46.008+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:46.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:46.027+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:52:46.050+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:46.050+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:52:46.063+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:52:46.063+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:52:46.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.080 seconds
+[2024-01-31T13:53:16.531+0000] {processor.py:161} INFO - Started process (PID=10239) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:16.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:53:16.532+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:16.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:16.547+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:16.568+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:16.568+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:53:16.579+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:16.579+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:53:16.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T13:53:46.977+0000] {processor.py:161} INFO - Started process (PID=10265) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:46.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:53:46.979+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:46.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:46.994+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:53:47.013+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:47.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:53:47.023+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:53:47.022+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:53:47.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.065 seconds
+[2024-01-31T13:54:17.400+0000] {processor.py:161} INFO - Started process (PID=10291) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:17.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:54:17.402+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:17.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:17.418+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:17.438+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:17.438+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:54:17.449+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:17.449+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:54:17.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.069 seconds
+[2024-01-31T13:54:47.849+0000] {processor.py:161} INFO - Started process (PID=10317) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:47.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:54:47.851+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:47.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:47.865+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:54:47.883+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:47.882+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:54:47.893+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:54:47.893+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:54:47.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T13:55:18.260+0000] {processor.py:161} INFO - Started process (PID=10343) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:18.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:55:18.261+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:18.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:18.276+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:18.295+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:18.294+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:55:18.304+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:18.304+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:55:18.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.071 seconds
+[2024-01-31T13:55:48.683+0000] {processor.py:161} INFO - Started process (PID=10369) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:48.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:55:48.685+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:48.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:48.699+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:55:48.717+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:48.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:55:48.726+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:55:48.726+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:55:48.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T13:56:19.105+0000] {processor.py:161} INFO - Started process (PID=10395) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:19.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:56:19.106+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:19.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:19.122+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:19.141+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:19.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:56:19.151+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:19.151+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:56:19.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.073 seconds
+[2024-01-31T13:56:49.615+0000] {processor.py:161} INFO - Started process (PID=10421) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:49.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:56:49.617+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:49.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:49.643+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:56:49.670+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:49.670+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:56:49.685+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:56:49.685+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:56:49.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.099 seconds
+[2024-01-31T13:57:20.065+0000] {processor.py:161} INFO - Started process (PID=10447) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:20.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:57:20.068+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:20.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:20.085+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:20.106+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:20.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:57:20.115+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:20.115+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:57:20.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T13:57:50.485+0000] {processor.py:161} INFO - Started process (PID=10473) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:50.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:57:50.487+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:50.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:50.503+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:57:50.524+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:50.524+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:57:50.536+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:57:50.536+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:57:50.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.073 seconds
+[2024-01-31T13:58:20.951+0000] {processor.py:161} INFO - Started process (PID=10499) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:20.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:58:20.954+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:20.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:20.975+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:20.999+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:20.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:58:21.010+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:21.010+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:58:21.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.083 seconds
+[2024-01-31T13:58:51.407+0000] {processor.py:161} INFO - Started process (PID=10525) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:51.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:58:51.409+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:51.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:51.423+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:58:51.441+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:51.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:58:51.450+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:58:51.450+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:58:51.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.068 seconds
+[2024-01-31T13:59:21.840+0000] {processor.py:161} INFO - Started process (PID=10551) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:21.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:59:21.842+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:21.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:21.856+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:21.875+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:21.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:59:21.884+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:21.884+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:59:21.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T13:59:52.288+0000] {processor.py:161} INFO - Started process (PID=10577) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:52.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T13:59:52.290+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:52.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:52.306+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T13:59:52.328+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:52.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T13:59:52.339+0000] {logging_mixin.py:188} INFO - [2024-01-31T13:59:52.339+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T13:59:52.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.074 seconds
+[2024-01-31T14:00:22.710+0000] {processor.py:161} INFO - Started process (PID=10603) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:22.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:00:22.712+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:22.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:22.728+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:22.746+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:22.746+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:00:22.756+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:22.756+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:00:22.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.065 seconds
+[2024-01-31T14:00:53.137+0000] {processor.py:161} INFO - Started process (PID=10629) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:53.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:00:53.140+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:53.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:53.159+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:00:53.184+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:53.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:00:53.195+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:00:53.195+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:00:53.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.080 seconds
+[2024-01-31T14:01:23.596+0000] {processor.py:161} INFO - Started process (PID=10655) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:23.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:01:23.597+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:23.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:23.612+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:23.631+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:23.631+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:01:23.641+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:23.641+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:01:23.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T14:01:54.059+0000] {processor.py:161} INFO - Started process (PID=10681) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:54.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:01:54.061+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:54.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:54.082+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:01:54.105+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:54.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:01:54.116+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:01:54.116+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:01:54.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.076 seconds
+[2024-01-31T14:02:24.504+0000] {processor.py:161} INFO - Started process (PID=10707) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:24.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:02:24.506+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:24.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:24.527+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:24.548+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:24.548+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:02:24.561+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:24.561+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:02:24.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.081 seconds
+[2024-01-31T14:02:54.957+0000] {processor.py:161} INFO - Started process (PID=10733) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:54.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:02:54.959+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:54.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:54.981+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:02:55.005+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:55.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:02:55.016+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:02:55.016+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:02:55.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.081 seconds
+[2024-01-31T14:03:25.414+0000] {processor.py:161} INFO - Started process (PID=10759) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:25.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:03:25.416+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:25.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:25.435+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:25.460+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:25.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:03:25.473+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:25.473+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:03:25.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.090 seconds
+[2024-01-31T14:03:55.884+0000] {processor.py:161} INFO - Started process (PID=10785) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:55.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:03:55.886+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:55.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:55.901+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:03:55.919+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:55.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:03:55.929+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:03:55.929+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:03:55.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:04:26.308+0000] {processor.py:161} INFO - Started process (PID=10811) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:26.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:04:26.309+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:26.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:26.323+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:26.343+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:26.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:04:26.353+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:26.353+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:04:26.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.066 seconds
+[2024-01-31T14:04:56.768+0000] {processor.py:161} INFO - Started process (PID=10837) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:56.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:04:56.770+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:56.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:56.783+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:04:56.800+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:56.800+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:04:56.809+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:04:56.809+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:04:56.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T14:05:27.215+0000] {processor.py:161} INFO - Started process (PID=10863) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:27.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:05:27.217+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:27.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:27.236+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:27.260+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:27.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:05:27.272+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:27.272+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:05:27.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.082 seconds
+[2024-01-31T14:05:57.662+0000] {processor.py:161} INFO - Started process (PID=10889) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:57.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:05:57.664+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:57.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:57.678+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:05:57.697+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:57.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:05:57.706+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:05:57.706+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:05:57.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:06:28.077+0000] {processor.py:161} INFO - Started process (PID=10915) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:28.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:06:28.079+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:28.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:28.093+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:28.122+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:28.122+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:06:28.134+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:28.134+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:06:28.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.080 seconds
+[2024-01-31T14:06:58.565+0000] {processor.py:161} INFO - Started process (PID=10941) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:58.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:06:58.567+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:58.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:58.581+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:06:58.600+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:58.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:06:58.610+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:06:58.609+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:06:58.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T14:07:28.972+0000] {processor.py:161} INFO - Started process (PID=10968) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:28.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:07:28.973+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:28.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:28.988+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:29.005+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:29.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:07:29.015+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:29.015+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:07:29.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:07:59.410+0000] {processor.py:161} INFO - Started process (PID=10994) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:59.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:07:59.412+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:59.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:59.426+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:07:59.444+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:59.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:07:59.453+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:07:59.453+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:07:59.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:08:29.815+0000] {processor.py:161} INFO - Started process (PID=11020) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:08:29.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:08:29.818+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:08:29.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:08:29.833+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:08:29.851+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:08:29.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:08:29.861+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:08:29.861+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:08:29.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T14:09:00.233+0000] {processor.py:161} INFO - Started process (PID=11046) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:00.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:09:00.234+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:00.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:00.249+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:00.267+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:00.266+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:09:00.276+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:00.276+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:09:00.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:09:30.639+0000] {processor.py:161} INFO - Started process (PID=11072) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:30.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:09:30.641+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:30.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:30.655+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:09:30.673+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:30.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:09:30.682+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:09:30.682+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:09:30.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.061 seconds
+[2024-01-31T14:10:01.050+0000] {processor.py:161} INFO - Started process (PID=11098) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:01.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:10:01.052+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:01.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:01.066+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:01.085+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:01.085+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:10:01.095+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:01.095+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:10:01.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.063 seconds
+[2024-01-31T14:10:31.458+0000] {processor.py:161} INFO - Started process (PID=11124) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:31.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:10:31.460+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:31.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:31.474+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:10:31.492+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:31.492+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:10:31.501+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:10:31.501+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:10:31.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.061 seconds
+[2024-01-31T14:11:01.866+0000] {processor.py:161} INFO - Started process (PID=11150) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:01.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:11:01.867+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:01.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:01.881+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:01.900+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:01.899+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:11:01.909+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:01.909+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:11:01.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T14:11:32.278+0000] {processor.py:161} INFO - Started process (PID=11176) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:32.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:11:32.280+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:32.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:32.294+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:11:32.312+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:32.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:11:32.322+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:11:32.322+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:11:32.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.070 seconds
+[2024-01-31T14:12:02.756+0000] {processor.py:161} INFO - Started process (PID=11202) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:02.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:12:02.758+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:02.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:02.774+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:02.792+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:02.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:12:02.803+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:02.803+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:12:02.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.075 seconds
+[2024-01-31T14:12:33.137+0000] {processor.py:161} INFO - Started process (PID=11228) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:33.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:12:33.139+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:33.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:33.153+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:12:33.171+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:33.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:12:33.180+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:12:33.180+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:12:33.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.068 seconds
+[2024-01-31T14:13:03.557+0000] {processor.py:161} INFO - Started process (PID=11254) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:03.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:13:03.559+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:03.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:03.572+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:03.590+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:03.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:13:03.600+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:03.600+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:13:03.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T14:13:33.986+0000] {processor.py:161} INFO - Started process (PID=11280) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:33.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:13:33.988+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:33.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:34.002+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:13:34.020+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:34.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:13:34.029+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:13:34.029+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:13:34.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.060 seconds
+[2024-01-31T14:14:04.394+0000] {processor.py:161} INFO - Started process (PID=11306) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:04.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:14:04.396+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:04.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:04.410+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:04.429+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:04.428+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:14:04.438+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:04.438+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:14:04.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.062 seconds
+[2024-01-31T14:14:34.804+0000] {processor.py:161} INFO - Started process (PID=11332) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:34.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:14:34.805+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:34.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:34.821+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:14:34.840+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:34.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:14:34.852+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:14:34.851+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:14:34.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.077 seconds
+[2024-01-31T14:15:05.175+0000] {processor.py:161} INFO - Started process (PID=11358) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:05.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:15:05.177+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:05.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:05.193+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:05.214+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:05.214+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:15:05.224+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:05.224+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:15:05.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.069 seconds
+[2024-01-31T14:15:35.640+0000] {processor.py:161} INFO - Started process (PID=11390) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:35.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:15:35.641+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:35.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:35.656+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:15:35.673+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:35.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:15:35.682+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:15:35.682+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:15:35.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.061 seconds
+[2024-01-31T14:16:06.055+0000] {processor.py:161} INFO - Started process (PID=11416) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:06.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:16:06.057+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:06.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:06.072+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:06.092+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:06.091+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:16:06.103+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:06.103+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:16:06.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.067 seconds
+[2024-01-31T14:16:36.380+0000] {processor.py:161} INFO - Started process (PID=11439) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:36.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:16:36.382+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:36.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:36.396+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:16:36.416+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:36.416+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:16:36.426+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:16:36.426+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:16:36.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.065 seconds
+[2024-01-31T14:17:06.811+0000] {processor.py:161} INFO - Started process (PID=11468) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:06.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:17:06.813+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:06.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:06.827+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:06.845+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:06.845+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:17:06.855+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:06.855+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:17:06.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.069 seconds
+[2024-01-31T14:17:37.238+0000] {processor.py:161} INFO - Started process (PID=11494) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:37.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:17:37.240+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:37.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:37.255+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:17:37.273+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:37.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:17:37.284+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:17:37.284+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:17:37.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.064 seconds
+[2024-01-31T14:18:07.660+0000] {processor.py:161} INFO - Started process (PID=11520) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:07.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:18:07.662+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:07.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:07.680+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:07.702+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:07.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:18:07.714+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:07.714+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:18:07.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.086 seconds
+[2024-01-31T14:18:38.095+0000] {processor.py:161} INFO - Started process (PID=11546) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:38.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:18:38.096+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:38.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:38.111+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:18:38.130+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:38.129+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:18:38.140+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:18:38.139+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:18:38.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.064 seconds
+[2024-01-31T14:19:08.510+0000] {processor.py:161} INFO - Started process (PID=11572) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:08.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:19:08.512+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:08.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:08.528+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:08.546+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:08.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:19:08.556+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:08.555+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:19:08.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.064 seconds
+[2024-01-31T14:19:38.916+0000] {processor.py:161} INFO - Started process (PID=11598) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:38.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:19:38.918+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:38.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:38.934+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:19:38.954+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:38.954+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:19:38.965+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:19:38.964+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:19:38.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.069 seconds
+[2024-01-31T14:20:09.358+0000] {processor.py:161} INFO - Started process (PID=11624) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:09.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:20:09.360+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:09.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:09.374+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:09.394+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:09.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:20:09.404+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:09.404+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:20:09.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.068 seconds
+[2024-01-31T14:20:39.771+0000] {processor.py:161} INFO - Started process (PID=11650) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:39.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:20:39.773+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:39.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:39.788+0000] {processor.py:840} INFO - DAG(s) 'vulnerability_email_notification' retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:39.807+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:39.807+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-31T14:20:39.817+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:39.817+0000] {dag.py:3823} INFO - Setting next_dagrun for vulnerability_email_notification to None, run_after=None
+[2024-01-31T14:20:39.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.064 seconds
+[2024-01-31T14:20:57.096+0000] {processor.py:161} INFO - Started process (PID=11667) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:57.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:20:57.098+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:57.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:57.127+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:20:57.119+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:20:57.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:20:57.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.053 seconds
+[2024-01-31T14:21:27.470+0000] {processor.py:161} INFO - Started process (PID=11693) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:27.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:21:27.471+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:21:27.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:27.486+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:21:27.483+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:21:27.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:27.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.033 seconds
+[2024-01-31T14:21:57.825+0000] {processor.py:161} INFO - Started process (PID=11719) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:57.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:21:57.827+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:21:57.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:57.842+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:21:57.839+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:21:57.843+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:21:57.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.043 seconds
+[2024-01-31T14:22:23.205+0000] {processor.py:161} INFO - Started process (PID=11750) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:23.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:22:23.207+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:22:23.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:23.233+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:22:23.230+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:22:23.233+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:23.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.048 seconds
+[2024-01-31T14:22:53.524+0000] {processor.py:161} INFO - Started process (PID=11776) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:53.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:22:53.526+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:22:53.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:53.541+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:22:53.538+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:22:53.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:22:53.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.036 seconds
+[2024-01-31T14:23:23.875+0000] {processor.py:161} INFO - Started process (PID=11802) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:23.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:23:23.877+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:23:23.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:23.900+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:23:23.896+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:23:23.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:23.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.044 seconds
+[2024-01-31T14:23:54.235+0000] {processor.py:161} INFO - Started process (PID=11828) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:54.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:23:54.236+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:23:54.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:54.250+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:23:54.248+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:23:54.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:23:54.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.033 seconds
+[2024-01-31T14:24:24.506+0000] {processor.py:161} INFO - Started process (PID=11854) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:24.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:24:24.509+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:24:24.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:24.525+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:24:24.522+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:24:24.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:24.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.047 seconds
+[2024-01-31T14:24:54.897+0000] {processor.py:161} INFO - Started process (PID=11880) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:54.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:24:54.899+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:24:54.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:54.919+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:24:54.915+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:24:54.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:24:54.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.040 seconds
+[2024-01-31T14:25:25.381+0000] {processor.py:161} INFO - Started process (PID=11906) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:25.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:25:25.383+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:25:25.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:25.398+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:25:25.395+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:25:25.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:25.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.043 seconds
+[2024-01-31T14:25:55.753+0000] {processor.py:161} INFO - Started process (PID=11932) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:55.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:25:55.755+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:25:55.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:55.770+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:25:55.767+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:25:55.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:25:55.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.034 seconds
+[2024-01-31T14:26:26.030+0000] {processor.py:161} INFO - Started process (PID=11958) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:26.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:26:26.032+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:26:26.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:26.046+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:26:26.043+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:26:26.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:26.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.036 seconds
+[2024-01-31T14:26:56.406+0000] {processor.py:161} INFO - Started process (PID=11984) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:56.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:26:56.408+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:26:56.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:56.422+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:26:56.419+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:26:56.422+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:26:56.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.032 seconds
+[2024-01-31T14:27:26.687+0000] {processor.py:161} INFO - Started process (PID=12010) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:26.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:27:26.689+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:27:26.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:26.705+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:27:26.702+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:27:26.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:26.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.034 seconds
+[2024-01-31T14:27:56.966+0000] {processor.py:161} INFO - Started process (PID=12036) to work on /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:56.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cvd_mail_and_reschedule.py for tasks to queue
+[2024-01-31T14:27:56.968+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:27:56.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:56.983+0000] {logging_mixin.py:188} INFO - [2024-01-31T14:27:56.980+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/cvd_mail_and_reschedule.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/cvd_mail_and_reschedule.py", line 126, in <module>
+    trigger_next_dag = TriggerDagRunOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 122, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 793, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to TriggerDagRunOperator (task_id: trigger_next_dag). Invalid arguments were:
+**kwargs: {'timeout': 14400}
+[2024-01-31T14:27:56.983+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cvd_mail_and_reschedule.py
+[2024-01-31T14:27:56.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cvd_mail_and_reschedule.py took 0.035 seconds

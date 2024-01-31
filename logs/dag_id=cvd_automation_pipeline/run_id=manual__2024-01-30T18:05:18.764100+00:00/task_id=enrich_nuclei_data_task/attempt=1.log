@@ -1,0 +1,16 @@
+[2024-01-30T18:06:24.204+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-30T18:05:18.764100+00:00 [queued]>
+[2024-01-30T18:06:24.216+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-30T18:05:18.764100+00:00 [queued]>
+[2024-01-30T18:06:24.216+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-30T18:06:24.234+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): enrich_nuclei_data_task> on 2024-01-30 18:05:18.764100+00:00
+[2024-01-30T18:06:24.244+0000] {standard_task_runner.py:60} INFO - Started process 334 to run task
+[2024-01-30T18:06:24.252+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'cvd_automation_pipeline', 'enrich_nuclei_data_task', 'manual__2024-01-30T18:05:18.764100+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/cvd_pipeline_1.py', '--cfg-path', '/tmp/tmp899b6gnx']
+[2024-01-30T18:06:24.261+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask enrich_nuclei_data_task
+[2024-01-30T18:06:24.416+0000] {task_command.py:423} INFO - Running <TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-30T18:05:18.764100+00:00 [running]> on host 016ca2062c36
+[2024-01-30T18:06:24.516+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='cvd_automation_pipeline' AIRFLOW_CTX_TASK_ID='enrich_nuclei_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-30T18:05:18.764100+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-30T18:05:18.764100+00:00'
+[2024-01-30T18:06:24.725+0000] {logging_mixin.py:188} INFO - Error running nuclei-parse-enrich: nuclei-parse-enrich/cmd/main.go:12:2: no required module provides package github.com/DIVD-NL/nuclei-parse-enrich/pkg/parser: go.mod file not found in current directory or any parent directory; see 'go help modules'
+nuclei-parse-enrich/cmd/main.go:14:2: no required module provides package github.com/jessevdk/go-flags: go.mod file not found in current directory or any parent directory; see 'go help modules'
+nuclei-parse-enrich/cmd/main.go:15:2: no required module provides package github.com/sirupsen/logrus: go.mod file not found in current directory or any parent directory; see 'go help modules'
+[2024-01-30T18:06:24.726+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-30T18:06:24.737+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=cvd_automation_pipeline, task_id=enrich_nuclei_data_task, execution_date=20240130T180518, start_date=20240130T180624, end_date=20240130T180624
+[2024-01-30T18:06:24.792+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-30T18:06:24.807+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

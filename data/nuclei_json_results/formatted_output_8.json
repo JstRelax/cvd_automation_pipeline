@@ -1,0 +1,33 @@
+{
+    "template-id": "CVE-2023-27350",
+    "template-path": "/opt/airflow/data/fingerprint_data.yaml",
+    "template-encoded": "aWQ6IENWRS0yMDIzLTI3MzUwDQoNCmluZm86DQogIG5hbWU6IENWRS0yMDIzLTI3MzUwIC0gUGFwZXJDdXQgTkcvTUYgQXV0aGVudGljYXRpb24gQnlwYXNzDQogIGF1dGhvcjogTWF4aW1hbmQNCiAgc2V2ZXJpdHk6IGNyaXRpY2FsDQogIGRlc2NyaXB0aW9uOiAiQXV0aGVudGljYXRpb24gQnlwYXNzIGluIFBhcGVyQ3V0IHByaW50ZXIgc29mdHdhcmUgYnkgdXNpbmcgdGhlIHNldHVwIHdpemFyZCB0byBnZW5lcmF0ZSBhIHNlc3Npb24iDQogIG1ldGFkYXRhOg0KICAgIHNob2Rhbi1xdWVyeTogJ2h0dHAuaHRtbDoicGFwZXJjdXQiJw0KICB0YWdzOiBwYXBlcmN1dCwgY3ZlLTIwMjMtMjczNTAsIGJ5cGFzcw0KDQoNCiNBTFdBWVMgVFJVRSANCmh0dHA6DQogIC0gbWV0aG9kOiBHRVQNCiAgICBwYXRoOg0KICAgICAgLSAie3tCYXNlVVJMfX0iDQogICAgbWF0Y2hlcnM6DQogICAgICAtIHR5cGU6IHN0YXR1cw0KICAgICAgICBzdGF0dXM6DQogICAgICAgICAgLSAyMDANCg==",
+    "info": {
+        "name": "CVE-2023-27350 - PaperCut NG/MF Authentication Bypass",
+        "author": [
+            "maximand"
+        ],
+        "tags": [
+            "papercut",
+            "cve-2023-27350",
+            "bypass"
+        ],
+        "description": "Authentication Bypass in PaperCut printer software by using the setup wizard to generate a session",
+        "severity": "critical",
+        "metadata": {
+            "shodan-query": "http.html:\"papercut\""
+        }
+    },
+    "type": "http",
+    "host": "68.79.11.55:4911",
+    "port": "4911",
+    "scheme": "https",
+    "url": "https://68.79.11.55:4911",
+    "matched-at": "https://68.79.11.55:4911",
+    "request": "GET / HTTP/1.1\r\nHost: 68.79.11.55:4911\r\nUser-Agent: DIVD-2023-00020\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+    "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nDate: Tue, 30 Jan 2024 18:57:16 GMT\r\nServer: HP Web Jetadmin/2.0.50 (Win32) mod_auth_sspi/1.0.1 mod_ssl/2.0.50 OpenSSL/0.9.6m\r\nX-Powered-By: ASP.NET\r\nContent-Length: 0\r\n\r\n",
+    "ip": "68.79.11.55",
+    "timestamp": "2024-01-30T18:57:13.131784378Z",
+    "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: DIVD-2023-00020' 'https://68.79.11.55:4911'",
+    "matcher-status": true
+}

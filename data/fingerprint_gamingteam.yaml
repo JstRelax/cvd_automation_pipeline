@@ -1,0 +1,37 @@
+id: CVE-1337-1337
+
+info:
+  name: Wouters gaming team site
+  author: nlcruise
+  severity: high
+  description: Wouter makes the web unsafe
+  remediation: Slap Wouter
+  reference:
+    - https://linkedin.com/wouter-honselaar
+  classification:
+    cvss-metrics: CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N
+    cvss-score: 5
+    cve-id: CVE-2000-0114
+    cwe-id: NVD-CWE-Other
+    epss-score: 0.09258
+    epss-percentile: 0.94099
+    cpe: cpe:2.3:a:microsoft:internet_information_server:3.0:*:*:*:*:*:*:*
+  metadata:
+    max-request: 2
+    vendor: wouter
+    product: csr-site
+  tags: 
+    - cve
+    - cve1337
+    - wouter
+    - teamcsr
+
+#ALWAYS TRUE 
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    matchers:
+      - type: status
+        status:
+          - 200

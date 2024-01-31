@@ -1,0 +1,26 @@
+[2024-01-25T13:57:06.827+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: your_dag_id.read_yaml_task manual__2024-01-25T13:57:06.304434+00:00 [queued]>
+[2024-01-25T13:57:06.836+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: your_dag_id.read_yaml_task manual__2024-01-25T13:57:06.304434+00:00 [queued]>
+[2024-01-25T13:57:06.837+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-25T13:57:06.852+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): read_yaml_task> on 2024-01-25 13:57:06.304434+00:00
+[2024-01-25T13:57:06.857+0000] {standard_task_runner.py:60} INFO - Started process 194 to run task
+[2024-01-25T13:57:06.859+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'your_dag_id', 'read_yaml_task', 'manual__2024-01-25T13:57:06.304434+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/test_pipeline_dag.py', '--cfg-path', '/tmp/tmpbkk13gf_']
+[2024-01-25T13:57:06.860+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask read_yaml_task
+[2024-01-25T13:57:06.903+0000] {task_command.py:423} INFO - Running <TaskInstance: your_dag_id.read_yaml_task manual__2024-01-25T13:57:06.304434+00:00 [running]> on host cb568e1e9ab6
+[2024-01-25T13:57:06.973+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='your_dag_id' AIRFLOW_CTX_TASK_ID='read_yaml_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-25T13:57:06.304434+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-25T13:57:06.304434+00:00'
+[2024-01-25T13:57:06.980+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_pipeline_dag.py", line 8, in read_yaml_file
+    file_path = Variable.get("fingerprint_file_path")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable fingerprint_file_path does not exist'
+[2024-01-25T13:57:06.990+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=your_dag_id, task_id=read_yaml_task, execution_date=20240125T135706, start_date=20240125T135706, end_date=20240125T135706
+[2024-01-25T13:57:07.001+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 3 for task read_yaml_task ('Variable fingerprint_file_path does not exist'; 194)
+[2024-01-25T13:57:07.032+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-25T13:57:07.051+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

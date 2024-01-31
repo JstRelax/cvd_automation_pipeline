@@ -1,0 +1,30 @@
+[2024-01-25T22:51:42.962+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-25T22:51:30.337836+00:00 [queued]>
+[2024-01-25T22:51:42.970+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-25T22:51:30.337836+00:00 [queued]>
+[2024-01-25T22:51:42.970+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-25T22:51:42.987+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): enrich_nuclei_data_task> on 2024-01-25 22:51:30.337836+00:00
+[2024-01-25T22:51:42.991+0000] {standard_task_runner.py:60} INFO - Started process 6468 to run task
+[2024-01-25T22:51:42.993+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'cvd_automation_pipeline', 'enrich_nuclei_data_task', 'manual__2024-01-25T22:51:30.337836+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/test_pipeline_dag.py', '--cfg-path', '/tmp/tmpes7esuwj']
+[2024-01-25T22:51:42.995+0000] {standard_task_runner.py:88} INFO - Job 52: Subtask enrich_nuclei_data_task
+[2024-01-25T22:51:43.031+0000] {task_command.py:423} INFO - Running <TaskInstance: cvd_automation_pipeline.enrich_nuclei_data_task manual__2024-01-25T22:51:30.337836+00:00 [running]> on host d1dec68e083c
+[2024-01-25T22:51:43.089+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='cvd_automation_pipeline' AIRFLOW_CTX_TASK_ID='enrich_nuclei_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-01-25T22:51:30.337836+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-25T22:51:30.337836+00:00'
+[2024-01-25T22:51:43.092+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_pipeline_dag.py", line 145, in enrich_nuclei_data
+    nuclei_data = json.load(file)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 60741)
+[2024-01-25T22:51:43.101+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=cvd_automation_pipeline, task_id=enrich_nuclei_data_task, execution_date=20240125T225130, start_date=20240125T225142, end_date=20240125T225143
+[2024-01-25T22:51:43.112+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 52 for task enrich_nuclei_data_task (Extra data: line 2 column 1 (char 60741); 6468)
+[2024-01-25T22:51:43.126+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-25T22:51:43.140+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
