@@ -1,29 +1,20 @@
 from airflow import DAG
+from airflow.models import Variable
 from airflow.operators.python import PythonOperator
+from airflow.sensors.python import PythonSensor
 from datetime import datetime, timedelta
 import json
 import os
-from jinja2 import Template
+import re
+import csv
+import logging
+import requests
 import smtplib
+import subprocess
+from subprocess import CalledProcessError
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import logging
-from airflow.models import Variable
-from airflow.sensors.time_sensor import TimeSensor
-from airflow.sensors.python import PythonSensor
-import requests
-
-
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from datetime import datetime, timedelta
-import json
-from airflow.sensors.time_sensor import TimeSensor
-import csv
-from subprocess import CalledProcessError
-from datetime import datetime
-from airflow.models import Variable
-import subprocess
+from jinja2 import Template
 
 
 default_args = {
@@ -89,7 +80,7 @@ def process_vulnerability_data(**kwargs):
     
     # Check if rescan file exists, else use initial file
     rescan_file_path = f'/opt/airflow/data/{divd_case_number}/enriched_results_rescan.json'
-    initial_file_path = f'/opt/airflow/data/{divd_case_number}/enriched_results.json'
+    initial_file_path = f'/opt/airflow/data/{divd_case_number}/enriched_results_with_email.json'
     json_file = rescan_file_path if os.path.exists(rescan_file_path) else initial_file_path
 
     # Load JSON data
@@ -158,7 +149,7 @@ def run_nuclei_scan(**kwargs):
     
     # Nuclei command with parameters used by DIVD
     nuclei_command = (
-        f"nuclei -H 'User-Agent: DIVD-2023-00020' -t {fingerprint_file_path} "
+        f"nuclei -H 'User-Agent: {divd_case_number}' -t {fingerprint_file_path} "
         f"-l {contacted_targets} -retries 2 -timeout 6 "
         f"-output data/{divd_case_number}/nuclei_results_rescan.json -j"
     )

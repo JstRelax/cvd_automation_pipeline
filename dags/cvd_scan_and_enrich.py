@@ -1,13 +1,11 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.models import Variable
-import yaml
 from datetime import datetime
 import subprocess
 from subprocess import CalledProcessError
 import json
 import requests
-import os
 import re
 
 
@@ -41,7 +39,6 @@ def run_uncover_scan(**kwargs):
         print(f"An error occurred while running Censys command: {e}")
     
     print("Uncover scan completed.")
-
 
 
 def run_shodan_scan(**kwargs):
@@ -80,7 +77,6 @@ def run_shodan_scan(**kwargs):
         print(f"An error occurred while converting Shodan data: {e}")
 
     print("Shodan scan and conversion completed.")
-
 
 
 def run_nuclei_scan(**kwargs):
@@ -129,41 +125,59 @@ def run_nuclei_scan(**kwargs):
 
 
 def enrich_nuclei_data(**kwargs):
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    # Retrieve the DIVD case number from Airflow Variables
     divd_case_number = Variable.get("divd_case_number")
 
-    # Adjusting file paths to use divd_case_number folder
+    # File paths for input and output
     nuclei_output_path = f"data/{divd_case_number}/nuclei_results.json"
-    enriched_results_path = f'data/{divd_case_number}/enriched_results.json'
+    enriched_results_path = f"data/{divd_case_number}/enriched_results.json"
+    enriched_results_with_email_path = f"data/{divd_case_number}/enriched_results_with_email.json"
+    enriched_results_without_email_path = f"data/{divd_case_number}/enriched_results_without_email.json"
 
-    # Ensure the enriched directory exists
-    #os.makedirs(enriched_directory, exist_ok=True)
-
-    # Run nuclei-parse-enrich tool and save output to a file
+    # Run the nuclei-parse-enrich tool
     cmd = f'cd /opt/airflow/nuclei-parse-enrich && go run cmd/main.go -i ../{nuclei_output_path} -o ../{enriched_results_path}'
     subprocess.run(cmd, shell=True, check=True)
 
-    # Load the output of the nuclei-parse-enrich tool
-    #enriched_output_path = os.path.join(enriched_directory, f'enriched_{current_date}.json')
+    # Open and read the enriched results file
     with open(enriched_results_path, 'r') as file:
         enriched_data = json.load(file)
 
-    # Iterate over each entry and enrich with security.txt data
+    # Initialize dictionaries for data with and without emails
+    with_email_data = {}
+    without_email_data = {}
+
+    # Regex for detecting emails
+    email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
+    # Iterate through each entry in the enriched data
     for ip, entry in enriched_data.items():
+        # Check for security.txt information
         ip_or_domain = entry.get('ip') or entry.get('host')
         if ip_or_domain:
             try:
                 response = requests.get(f'https://{ip_or_domain}/.well-known/security.txt')
                 if response.status_code == 200:
-                    emails = re.findall(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', response.text)
+                    emails = re.findall(email_regex, response.text)
                     entry['security_txt_email'] = emails[0] if emails else None
-            except requests.exceptions.RequestException as e:
-                print(f"Error retrieving security.txt for {ip_or_domain}: {e}")
+            except requests.exceptions.RequestException:
+                pass
 
-    # Save the enriched data
-    #output_file_path = os.path.join(enriched_directory, f'enriched_results.json')
-    with open(enriched_results_path, 'w') as file:
-        json.dump(enriched_data, file, indent=4)  # Add indentation for formatting
+        # Separate data with and without email information
+        abuse_email_present = 'Abuse' in entry and entry['Abuse'].strip()
+        security_txt_email_present = 'security_txt_email' in entry and entry['security_txt_email'].strip()
+
+        if abuse_email_present or security_txt_email_present:
+            with_email_data[ip] = entry
+        else:
+            without_email_data[ip] = entry
+
+    # Write the data with emails to a file
+    with open(enriched_results_with_email_path, 'w') as file:
+        json.dump(with_email_data, file, indent=4)
+
+    # Write the data without emails to a file
+    with open(enriched_results_without_email_path, 'w') as file:
+        json.dump(without_email_data, file, indent=4)
 
     print("Enrichment step completed.")
 
@@ -181,11 +195,6 @@ with DAG(
     description='A DAG for vulnerability scanning',
     catchup=False  # set to False if you don't want backfilling
 ) as dag:
-    #read_vulnerability_file_task = PythonOperator(
-    #    task_id='read_vulnerability_file_task',
-    #    python_callable=read_vulnerability_file,
-    #    provide_context=True
-    #)
 
     run_shodan_scan_task = PythonOperator(
         task_id='run_shodan_scan_task',
