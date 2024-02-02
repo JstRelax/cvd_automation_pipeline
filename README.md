@@ -1,8 +1,6 @@
 # Airflow Docker Setup Guide
 
-This guide provides instructions on setting up Docker containers for running Apache Airflow. Follow these steps to initialize and manage your Airflow environment.
-
-## Setting Up Docker Containers
+This guide provides instructions on setting up Docker containers for running Apache Airflow and the DAGs defined in this repository.
 
 ### Initialization
 
