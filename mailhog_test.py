@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 # SMTP server configuration
-smtp_server = '192.168.1.74'  # Replace with the correct IP address of your MailHog container
+smtp_server = '192.168.1.74'  # Replace with the correct IP address of MailHog container
 smtp_port = 1025            # Default MailHog SMTP port
 
 # Email content
