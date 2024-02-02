@@ -104,4 +104,4 @@ After running this command, MailHog will be accessible on port 8025 for the web 
 
 Accessing MailHog
 Web Interface: Open a browser and navigate to http://localhost:8025 to access the MailHog web interface.
-SMTP Server: Use localhost with port 1025 as the SMTP server in your applications.
+SMTP Server: Use localhost with port 1025 as the SMTP server.
