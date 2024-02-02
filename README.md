@@ -72,31 +72,32 @@ If you are using `uncover` for scanning, don't forget to place your API keys in 
 
 # Mailhog setup guide for testing
 
-MailHog Docker Setup Instructions
+## MailHog Docker Setup Instructions
 This document provides instructions for building and starting a MailHog Docker instance.
 
-Building and Starting MailHog
+## Building and Starting MailHog
+
 Navigate to the MailHog Directory: Make sure you are in the directory where the Dockerfile for MailHog is located.
 
-shell
-Copy code
+```bash
 cd path/to/mailhog/directory
+```
 Replace path/to/mailhog/directory with the actual path to your MailHog Dockerfile.
 
 Build the Docker Image: Use the Docker build command to create an image for MailHog.
 
-shell
-Copy code
+```bash
 docker build -t mailhog-image .
+```
 This command builds a Docker image named mailhog-image from the Dockerfile in the current directory.
 
 Run the MailHog Container: Start a container from the built image.
 
-shell
-Copy code
+```bash
 docker run -d -p 1025:1025 -p 8025:8025 --name mailhog mailhog-image
--d runs the container in detached mode.
--p 1025:1025 maps the SMTP port.
+```
+- -d runs the container in detached mode.
+- -p 1025:1025 maps the SMTP port.
 -p 8025:8025 maps the web interface port.
 --name mailhog names the container mailhog.
 After running this command, MailHog will be accessible on port 8025 for the web interface and port 1025 for SMTP.
