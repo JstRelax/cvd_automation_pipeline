@@ -59,12 +59,10 @@ P.S. If you are not running this server yourself but know the responsible party 
 # Create a Jinja2 template
 template = Template(template_string)
 
-divd_case_number = "DIVD-2024-XXXX"
-
 def process_vulnerability_data(**kwargs):
-    smtp_server = '192.168.43.145'  # Host private IP address
-    smtp_port = 1025  # Default MailHog SMTP port
-    smtp_username = 'hello@gmail.com'  # MailHog doesn't require username
+    smtp_server = '192.168.43.145'  # (Host private IP address) TODO: Replace with actual SMTP server IP
+    smtp_port = 1025  # Default MailHog SMTP port TODO: Replace with actual SMTP server port
+    smtp_username = 'hello@gmail.com'  # MailHog doesn't require username TODO: Replace with real auth info
     smtp_password = ''  # MailHog doesn't require password
     logging.info("SMTP server connecting...")
 
@@ -92,6 +90,7 @@ def process_vulnerability_data(**kwargs):
         logging.error(f"Error loading JSON data: {e}")
         return
 
+    # Send an email to each abuse email found in "Abuse"
     for ip, details in data.items():
         abuse_emails = details['Abuse'].split(';')
         for email in abuse_emails:
@@ -133,8 +132,6 @@ def convert_json_to_csv(json_file_path, csv_file_path):
                 writer.writerow([host])
 
 def run_nuclei_scan(**kwargs):
-    ti = kwargs['ti']
-    current_date = datetime.now().strftime("%Y-%m-%d")
     fingerprint_file_path = Variable.get("fingerprint_file_path")
     divd_case_number = Variable.get("divd_case_number")
 
@@ -163,7 +160,6 @@ def run_nuclei_scan(**kwargs):
     print("Nuclei scan completed.")
 
 def enrich_nuclei_data(**kwargs):
-    current_date = datetime.now().strftime("%Y-%m-%d")
     divd_case_number = Variable.get("divd_case_number")
 
     # Adjusting file paths to use divd_case_number folder
