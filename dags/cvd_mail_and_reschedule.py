@@ -62,7 +62,7 @@ template = Template(template_string)
 divd_case_number = "DIVD-2024-XXXX"
 
 def process_vulnerability_data(**kwargs):
-    smtp_server = '192.168.1.74'  # Host private IP address
+    smtp_server = '192.168.43.145'  # Host private IP address
     smtp_port = 1025  # Default MailHog SMTP port
     smtp_username = 'hello@gmail.com'  # MailHog doesn't require username
     smtp_password = ''  # MailHog doesn't require password

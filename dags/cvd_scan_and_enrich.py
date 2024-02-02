@@ -7,17 +7,15 @@ from subprocess import CalledProcessError
 import json
 import requests
 import re
+import os
 
 
 
 # Currently not used
 def run_uncover_scan(**kwargs):
-    # Pulling the data from XCom
-    ti = kwargs['ti']
-    yaml_data = ti.xcom_pull(key='yaml_vulnerability_data', task_ids='read_vulnerability_file')
-    
-    # If getting the search phrase from the fingerprint file...
-    # ...
+    # Set the path to your API key file
+    api_key_file_path = '/opt/airflow/config/uncover_api_keys.yaml'
+    os.environ['UNCOVER_CONFIG'] = api_key_file_path
 
     # Get uncover search phrase from Airflow Variable
     uncover_search_phrase = Variable.get("uncover_search_phrase")
@@ -27,9 +25,18 @@ def run_uncover_scan(**kwargs):
     shodan_command = f"uncover -s '{uncover_search_phrase}' -l 9999999 > data/{divd_case_number}/shodan-results.txt"
     censys_command = f"uncover -cs '{uncover_search_phrase}' -l 9999999 > data/{divd_case_number}/censys-results.txt"
 
+    #TODO: Uncover provides -e flag with which it is possible to use multiple search engines at the same time. It should be 
+    #TODO: checked whether it removes duplicate ips from the final reuslt by itself or if one big final ip address file
+    #TODO: should be created manually (programmatically). Next, parse the txt file into csv file so that it fits into the 
+    #TODO: following nuclei scan task.
+
+    uncover_command = f"uncover -e shodan,censys -s '{uncover_search_phrase}' -l 9999999 > data/{divd_case_number}/uncover-results.txt"
+
+
     # Execute the commands and handle errors
     try:
-        subprocess.run(shodan_command, shell=True, check=True)
+        #subprocess.run(shodan_command, shell=True, check=True)
+        subprocess.run(uncover_command, shell=True, check=True)
     except CalledProcessError as e:
         print(f"An error occurred while running Shodan command: {e}")
 
@@ -49,11 +56,10 @@ def run_shodan_scan(**kwargs):
     divd_case_number = Variable.get("divd_case_number")  # Retrieve DIVD case number
 
     # Constructing the Shodan download command
-    #download_command = f"shodan download --limit -1 'data/{current_date}-download' '{shodan_search_phrase}'"
-    download_command = f"shodan download --limit 10 /opt/airflow/data/{divd_case_number}/shodan-download '{shodan_search_phrase}'"
+    download_command = f"shodan download --limit -1 /opt/airflow/data/{divd_case_number}/shodan-download '{shodan_search_phrase}'"
     print(download_command)
 
-    # Initialize Shodan with the API key - needs to be set in Airflow UI
+    # Initialize Shodan with the API key - Variable needs to be set in Airflow UI
     init_command = f"shodan init {shodan_api_key}"
     try:
         subprocess.run(init_command, shell=True, check=True)
@@ -99,27 +105,6 @@ def run_nuclei_scan(**kwargs):
     except CalledProcessError as e:
         print(f"An error occurred while running Nuclei command: {e}")
         print(e.output)
-    
-
-    # File path for the Nuclei JSON output
-    #nuclei_output_path = f"data/{divd_case_number}/nuclei-results.json"
-
-    #try:
-    #    with open(nuclei_output_path, 'r', encoding='utf-8') as file:
-    #        lines = file.readlines()
-
-        # Process each JSON object separately
-    #    for i, line in enumerate(lines):
-    #        try:
-    #            data = json.loads(line)
-    #            with open(f"data/nuclei_json_results/formatted_output_{i}.json", 'w', encoding='utf-8') as outfile:
-    #                json.dump(data, outfile, ensure_ascii=False, indent=4)
-    #            print(f"JSON object {i} has been formatted and saved")
-    #        except json.JSONDecodeError as e:
-    #            print(f"An error occurred while parsing JSON object {i}: {e}")
-#
-    #except Exception as e:
-     #   print(f"An error occurred while reading the file: {e}")
     
     print("Nuclei scan completed.")
 
@@ -189,11 +174,11 @@ default_args = {
 
 
 with DAG(
-    dag_id='cvd_automation_pipeline', 
+    dag_id='cvd_scan_and_enrich', 
     default_args=default_args, 
     schedule_interval=None,  # set to None for manual trigger
     description='A DAG for vulnerability scanning',
-    catchup=False  # set to False if you don't want backfilling
+    catchup=False  # set to False - no backfilling
 ) as dag:
 
     run_shodan_scan_task = PythonOperator(
@@ -214,5 +199,4 @@ with DAG(
         provide_context=True
     )
 
-    #read_vulnerability_file_task >> run_shodan_scan_task >> run_nuclei_scan_task >> enrich_nuclei_data_task
     run_shodan_scan_task >> run_nuclei_scan_task >> enrich_nuclei_data_task
